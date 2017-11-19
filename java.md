@@ -9,5 +9,6 @@
   }
   ```
   调用此方法`overloadedMethod("abc");`会打印`String`。
-- lambda表达式的类型是什么？  
+  原则是能选子类的就选子类的。
+- lambda表达式的类型是什么？  
   lambda表达式的类型就是函数接口的类型。
