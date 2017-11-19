@@ -8,7 +8,7 @@
     System.out.println("String");
   }
   ```
-  调用此方法`overloadedMethod("abc");`会打印`String`。
-  原则是能选子类的就选子类的。
+  调用此方法`overloadedMethod("abc");`会打印`String`。  
+  原则是能选子类的就选子类的。如果互相没有子类关系，则编译器报错。
 - lambda表达式的类型是什么？  
   lambda表达式的类型就是函数接口的类型。
