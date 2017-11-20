@@ -14,3 +14,5 @@
   lambda表达式的类型就是函数接口的类型。
 - @FunctionalInterface的作用？  
  标识这个接口是个函数式接口。那哪些不是函数式接口呢？比如说Comparable、Closable。
+- 字节数组转十六进制字符串？  
+ Apache-commons-codec Hex.encodeHexString(bytes);
