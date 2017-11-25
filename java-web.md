@@ -23,3 +23,13 @@
        maxRequestSize = 41_943_040  // 本次请求的大小最大为40M，一次请求可以带有多个文件
     )
     ```
+- jsp隐式变量
+  - request和response
+  - session
+  - out -> outWriter，一般不使用它，而是直接在jsp中写文本
+  - application -> ServletContext
+  - config -> ServletConfig
+  - pageContext
+  - page -> 当前的Servlet对象
+  - exception
+
