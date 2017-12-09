@@ -20,3 +20,36 @@
 - python3中的正则表达式字符串需要加r吗？
 
   - 不需要
+
+- sys模块中args的意思？
+
+  - args代表脚本运行时的命令行参数，`args[0]`始终表示程序名，例：test.py
+
+- python中的私有变量？
+
+  - python的私有变量定义方法为在变量名前面加`_`或`__`
+
+- 如何获取python的包搜索路径(类似于java中的classpath)？
+
+  - ```python
+    import sys
+    sys.path
+    ```
+
+  - 添加自定义的path路径
+
+    ```python
+    import sys
+    sys.path.append('/user/somebody/mypythonpath')
+    ```
+
+- 判断函数类型的方法？
+
+  - 使用types模块中定义的常量
+    ```python
+    import types
+    def fn():
+    	pass
+    type(fn) == types.FunctionType
+    ```
+  - 使用`isinstance`判断，使用方法和type一样，而且`isinstance`还可以判断多个
