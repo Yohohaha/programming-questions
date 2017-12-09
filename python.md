@@ -52,4 +52,9 @@
     	pass
     type(fn) == types.FunctionType
     ```
+
   - 使用`isinstance`判断，使用方法和type一样，而且`isinstance`还可以判断多个
+
+- 如何限定一个类的属性定义？
+
+  - 使用`__slots__`
