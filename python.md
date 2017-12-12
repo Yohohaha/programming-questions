@@ -62,3 +62,9 @@
 - 对于python中魔法方法的理解？
 
   - python中的魔法方法类似于java中的通用接口，如`Clonable`、`Closable`等或java的Object类中定义的`toString()`等，然后再对其做一些语法上面的转化，类比java中对`toString()`方法在打印的时候做出的转化
+
+- python2中使用正则的时候中文怎么表示？
+
+  - 在python2中使用正则，中文必须表示为unicode，否则无法验证通过
+  - 在python3中因为字符串默认为unicode，所以没问题，而且python3还支持直接使用字节匹配
+
